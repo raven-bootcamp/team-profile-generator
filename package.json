@@ -1,0 +1,29 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "A tool to create your team's profile page with their contact details",
+  "main": "index.js",
+  "directories": {
+    "lib": "scripts",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raven-bootcamp/team-profile-generator.git"
+  },
+  "author": "Nick Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raven-bootcamp/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/raven-bootcamp/team-profile-generator#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^8.1.2",
+    "jest": "^27.0.6",
+    "path": "^0.12.7"
+  }
+}
